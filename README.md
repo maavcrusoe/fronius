@@ -23,3 +23,11 @@ E_Total:  100708200
 E_Year:  32907918
 P:  2548
 ```
+## PowerShell WebServer
+You can use this PS script in your kiosk or local network to print some data about your fronius solar panels, if you need to print something else only need to change all the content in printWebpage function.
+
+```
+GET /fronius
+GET /quit 
+POST if you want
+```
